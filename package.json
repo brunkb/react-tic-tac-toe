@@ -1,0 +1,16 @@
+{
+  "name": "react-tut",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "babel src -d lib",
+    "serve": "node http-server/bin/http-server ./http-server/public",
+    "dist": "node scripts/dist.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.23.0",
+    "babel-preset-env": "^1.2.1",
+    "babel-preset-react": "^6.23.0",
+    "copy-files": "^0.1.0"
+  }
+}
